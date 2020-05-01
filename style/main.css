@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baskervville:400,400i&display=swap');
+
+body {
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* BOX 1 */
+
+.box01 {
+	height: 100vh;
+}
+
+#menu {
+	text-align: right;
+}
+
+li {
+	display: inline-block;
+	padding: 20px 50px 20px 20px;
+}
+
+a.menu:link {
+	color: #00e600;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a.menu:visited {
+	color: #00e600;
+	text-decoration: none;
+}
+
+a.menu:hover {
+	color: #f4f0ec;
+	text-decoration: none;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: Poppins, sans-serif; 
+	text-align: center;
+	color: #f4f0ec;
+	font-size: 100px;
+	padding: 200px 0 0 0;
+	margin: 0px;
+}
+
+#function {
+	color: #00e600;
+	text-align: center;
+	margin: 0 70px 0 70px;
+}
+
+#graphic {
+	font-weight: lighter italic;
+	font-family: 'Baskervville', serif;
+}
+
+#motion {
+	font-weight: 700;
+}
+
+
+#photo {
+	font-family: 'Baskervville', serif;
+}
+
+/* CASE 01 */
+
+.split1 {
+  height: 90%; 
+  width: 50%;
+  position: absolute;
+  top: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left1 {
+  left: 0;
+  background: url("img/motion.png"); 
+  position: absolute;
+}
+
+.right1 {
+  right: 0;
+  background-color: #F4F0EC;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img {
+	width: auto;
+}
+
+h2 {
+	font-family: 'Baskervville', serif;
+	font-size: 30px;
+	font-weight: lighter;
+	color: #525252;
+}
+
+h3#case01 {
+	text-align: left;
+	font-weight: 500;
+	color: #525252;
+}
+
+h4#case01 {
+	text-align: left;
+	font-weight: 300;
+	color: #00e600;
+}
+
+p#case01 {
+	text-align: left;
+	font-weight: 300;
+	color: #525252;
+}
+
+a.case01:link {
+	color: #00e600;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+a.case02:visited {
+	color: #00e600;
+}
+
+a.case01:hover {
+	color: black;
+}
+
+a.case01:after {
+    position: absolute; 
+    padding-left:2px; 
+    content: "\00bb"; 
+}
+
+#link01 {
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+

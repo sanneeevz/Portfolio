@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baskervville:400,400i&display=swap');
+
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+	height: 100%
+	margin: 0;
+}
+
+/*HEADER*/
+
+.box01 {
+	height: 100vh;	
+}
+
+.header {
+	background: url("../img/case.jpg") no-repeat center center;
+	-webkit-background-size: 100% auto;
+	height: 70vh;
+	width: auto;
+	margin: 0;
+}
+
+#menu {
+	text-align: right;
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	padding: 20px 50px 20px 20px;
+}
+
+a.menu:link {
+	color: #00e600;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a.menu:visited {
+	color: #00e600;
+}
+
+a.menu:hover {
+	color: white;
+}
+
+h2 {
+	font-family: 'Baskervville', serif;
+	font-weight: lighter;
+	font-size: 80px;
+	color: #00e600;
+	text-align: center;
+	padding-top: 12%;
+}
+
+/*INTRO*/
+
+h4 {
+	font-family: Poppins, sans-serif;
+	color: #00e600;
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: center;
+	padding-top: 20px;
+}
+
+p {
+	font-family: Poppins, sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	text-align: center;
+	padding: 0 20% 0 20%;
+}
+
+/*PIP & PASCAL*/
+
+.love1 {
+	max-width: 100%;
+}
+
+.love2 {
+	max-width: 100%;
+}
+
+/*HANDEN*/
+
+..row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+
+
